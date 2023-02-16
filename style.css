@@ -1,0 +1,101 @@
+
+/*----font style*/
+  @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+body{
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+}
+
+/*header style color*/
+
+.header{
+
+    background-color: rgba(241, 129, 0, 0.1);
+}
+
+
+.header-title{
+
+    margin-left: 120px;
+}
+
+.nav{
+
+    display: flex;
+    
+    justify-content: space-between;
+}
+
+.nav-title{
+
+    width: 477px;
+    height: 26px;
+    font-size: 18px;
+}
+.nav-title li{
+
+    margin-left: 10px;
+    list-style-type: none;
+  
+}
+
+.nav-title ul{
+    display: flex;
+}
+
+.nav-title a{
+
+    text-decoration: none;
+    color: black;
+    margin-right: 20px;
+}
+
+.nav-title li:hover{
+
+    background-color: lightblue;
+    padding: 12px 15px;
+    box-shadow: 1px 0px 10px 0px;
+    transition: 2s;
+}
+
+/* Banner-img , button , group-info color */
+
+.header-bar{
+
+    margin-top: 116px;
+}
+.group-title{
+    text-align: center;
+    width: 868px;
+    margin: 0 auto;
+    
+}
+
+.link-button{
+
+    border: none;
+    padding: 20px 25px ;
+    background-color: #FF900E ;
+    color: white;
+    border-radius: 8px;
+    width: 180px;
+   height: 64px;
+   font-weight: 600;
+
+
+}
+
+.banner-img{
+
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+   
+}
+
+
+
+
+
