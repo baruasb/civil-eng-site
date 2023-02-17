@@ -220,7 +220,11 @@ body{
 .mid-banner-img{
    
     margin-right: 120px;
+    
 }
+
+
+
 
 
 
@@ -236,7 +240,7 @@ body{
 .feature-items{
 
     background: #FFFFFF;
-    height: 171px;
+    height: 150px;
     width: 588px;
     box-shadow: 0px 4px 30px rgba(0, 0 , 10 , 0.1);
     border-radius: 5px;
@@ -252,4 +256,55 @@ body{
     font-weight: 400;
     font-size: 16px;
     color: #727272;
+}
+
+
+
+
+/* fact section style */
+
+.sponsorship{
+    margin-top: 180px;
+    align-items: center;
+   
+}
+
+.sponsorship-info{
+
+    margin: 0 auto;
+    width: 542px;
+    height: 129px;
+    text-align: center;
+}
+
+.icon-sponsor{
+
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.icon-sponsor img{
+
+    margin-left: 60px;
+}
+
+
+
+
+
+.footer{
+
+    margin-top: 175px ;
+    background-color: antiquewhite;
+    padding: 50px;
+ 
+}
+
+.footer-title{
+
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color: #424242;
 }
